@@ -2,3 +2,11 @@
   margin: 0 auto;
   font-family: "Inter";
 }
+
+body {
+  background-color: #2a2c2f;
+}
+
+img {
+  width: 50%;
+}
