@@ -6,4 +6,7 @@
   /* or 120% */
   text-align: center;
   color: #ffffff;
+  max-width: 620px;
+  height: 72px;
+  margin: 0 auto 64px;
 }

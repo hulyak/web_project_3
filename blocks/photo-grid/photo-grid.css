@@ -7,6 +7,6 @@
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  grid-gap: 10px;
-  padding: 0 48px;
+  gap: 16px;
+  margin: 0 48px 92px 48px;
 }
