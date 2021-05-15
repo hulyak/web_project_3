@@ -12,3 +12,10 @@
   grid-template-rows: repeat(2, auto);
   margin-bottom: 80px;
 }
+
+@media only screen and (max-width: 320px) {
+  .place {
+    grid-template-columns: 100%;
+    margin-bottom: 48px;
+  }
+}

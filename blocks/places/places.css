@@ -1,12 +1,18 @@
 .places {
   margin: 0 auto;
   width: 984px;
-  height: 3434px;
+  margin: 0;
+  padding: 0;
 }
 
 @media only screen and (max-width: 1024px) {
   .places {
     width: 928px;
-    height: 3432px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .places {
+    width: 320px;
   }
 }

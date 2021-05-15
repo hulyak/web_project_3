@@ -10,9 +10,8 @@
   margin: 8px 0 0;
 }
 
-@media screen and (max-width: 320px) {
+@media only screen and (max-width: 320px) {
   .lead__caption {
-    width: 182px;
-    height: 14px;
+    margin: 8px 122px 0 16px;
   }
 }

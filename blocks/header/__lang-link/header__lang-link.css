@@ -1,3 +1,5 @@
+@import url("../__lang-link/_active/header__lang-link_active.css");
+
 .header__lang-link {
   font-style: normal;
   font-weight: normal;
@@ -13,9 +15,8 @@
   display: inline-block;
 }
 
-.header__lang-link:lang(en) {
-  margin-right: 18px;
-  text-decoration: underline;
+.header__lang-link:hover {
+  opacity: 0.4;
 }
 
 @media screen and (max-width: 320px) {

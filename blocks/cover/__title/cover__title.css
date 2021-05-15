@@ -4,10 +4,20 @@
   font-size: 72px;
   line-height: 76px;
   /* identical to box height, or 106% */
-  text-align: center;
   color: #fffdfd;
-  width: 656px;
-  height: 76px;
+  max-width: 656px;
   text-decoration: none;
-  margin: 0 0 32px 0;
+  /* margin: 0 0 32px 0; */
+  position: relative;
+  left: 22%;
+  top: 35%;
+  /* padding: 283px 264px 0 264px; */
+}
+@media only screen and (max-width: 320px) {
+  .cover__title {
+    font-size: 32px;
+    line-height: 35px;
+    left: 10%;
+    top: 20%;
+  }
 }

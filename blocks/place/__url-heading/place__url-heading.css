@@ -8,3 +8,10 @@
   color: #aaaaaa;
   margin: 0;
 }
+
+@media only screen and (max-width: 320px) {
+  .place__url-heading {
+    line-height: 12px;
+    margin-bottom: 12px;
+  }
+}

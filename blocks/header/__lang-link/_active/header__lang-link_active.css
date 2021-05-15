@@ -1,0 +1,4 @@
+.header__lang-link_active:lang(en) {
+  margin-right: 18px;
+  text-decoration: underline;
+}

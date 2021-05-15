@@ -4,8 +4,10 @@
   font-size: 18px;
   line-height: 22px;
   /* or 122% */
-  text-align: center;
   color: #ffffff;
-  width: 320px;
-  height: 66px;
+  max-width: 320px;
+  position: relative;
+  left: 35%;
+  top: 35%;
+  /* padding: 391px 43px 283px; */
 }
