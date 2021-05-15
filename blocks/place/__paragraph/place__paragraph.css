@@ -13,14 +13,31 @@
   line-height: 26px;
 }
 
+@media only screen and (max-width: 1024px) {
+  .place__paragraph {
+    margin: 0 32px 26px 48px;
+  }
+  .place__paragraph:last-child {
+    line-height: 30px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .place__paragraph {
+    margin: 0 24px 25px 28px;
+  }
+
+  .place__paragraph:last-child {
+    font-size: 16px;
+  }
+}
+
 @media only screen and (max-width: 320px) {
   .place__paragraph {
     font-size: 16px;
     margin: 0 16px 25px 16px;
   }
   .place__paragraph:last-child {
-    margin-bottom: 0;
-    font-size: 16px;
     line-height: 163%;
   }
 }

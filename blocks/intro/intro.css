@@ -7,9 +7,15 @@
   margin: 0 442px 92px 148px;
 }
 
-@media only screen and(max-width:1024px) {
+@media only screen and (max-width: 1024px) {
   .intro {
     margin: 0 286px 92px 143px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .intro {
+    margin: 0 24px 88px 24px;
   }
 }
 

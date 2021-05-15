@@ -3,14 +3,13 @@
   flex-direction: column;
   justify-content: flex-end;
   align-content: flex-end;
-  width: 456px;
+  /* width: 456px; */
   margin-bottom: 48px;
   margin-left: 40px;
 }
 
 @media only screen and (max-width: 320px) {
   .place__website {
-    width: 288px;
     margin: 0 auto 30px;
   }
 }
