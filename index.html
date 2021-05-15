@@ -13,18 +13,18 @@
     />
     <link rel="stylesheet" href="pages/index.css" />
   </head>
-  <body>
-    <div class="page">
-      <header class="header">
-        <a href="#"
-          ><img src="images/logo.svg" alt="logo image" class="logo"
-        /></a>
-        <nav>
-          <span><a href="#" lang="en" class="header__lang-link">En</a></span>
-          <span><a href="#" lang="es" class="header__lang-link">Es</a></span>
-        </nav>
-      </header>
+  <body class="page">
+    <header class="header">
+      <a href="#"
+        ><img src="images/logo.svg" alt="logo image" class="logo"
+      /></a>
+      <nav>
+        <span><a href="#" lang="en" class="header__lang-link">En</a></span>
+        <span><a href="#" lang="es" class="header__lang-link">Es</a></span>
+      </nav>
+    </header>
 
+    <main>
       <section class="lead">
         <h1 class="lead__title">From Portland to Portland</h1>
         <p class="lead__subtitle">
@@ -300,33 +300,32 @@
       </section>
 
       <section class="cover">
-        <!-- <a href="https://www.nps.gov/nr/travel/route66/maps66.html"> -->
-        <div class="cover__overlay"></div>
-        <img class="cover__background" src="images/cover-route-66.jpeg" />
-        <h3 class="cover__title">Historic Route 66</h3>
-        <p class="cover__subtitle">
-          The Main Street of America from Santa Monica, Cal. to Chicago, Ill.
-        </p>
+        <a href="https://www.nps.gov/nr/travel/route66/maps66.html">
+          <div class="cover__background">
+            <h3 class="cover__title">Historic Route 66</h3>
+            <p class="cover__subtitle">
+              The Main Street of America from Santa Monica, Cal. to Chicago,
+              Ill.
+            </p>
+          </div>
+          <div class="cover__overlay"></div>
+        </a>
       </section>
 
       <footer class="footer">
         <ul>
-          <li>
-            <a href="https://yandex.com/maps" class="footer__link">Maps</a>
-          </li>
-          <li>
-            <a href="https://yandex.com/weather/moscow" class="footer__link"
-              >Weather</a
-            >
-          </li>
-          <li>
-            <a href="#https://calendar.yandex.ru" class="footer__link"
-              >Calendar</a
-            >
-          </li>
+          <a href="https://yandex.com/maps" class="footer__link">
+            <li>Maps</li>
+          </a>
+          <a href="https://yandex.com/weather/moscow" class="footer__link">
+            <li>Weather</li>
+          </a>
+          <a href="#https://calendar.yandex.ru" class="footer__link">
+            <li>Calendar</li></a
+          >
         </ul>
         <p class="footer__copyright">© 2021. Hulya Karakaya</p>
       </footer>
-    </div>
+    </main>
   </body>
 </html>

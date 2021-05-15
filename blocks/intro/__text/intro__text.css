@@ -13,3 +13,9 @@
   line-height: 163%;
   margin-bottom: 33px;
 }
+
+@media only screen and (max-width: 320px) {
+  .intro__text {
+    line-height: 30px;
+  }
+}

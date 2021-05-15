@@ -3,3 +3,10 @@
   width: 984px;
   height: 3434px;
 }
+
+@media only screen and (max-width: 1024px) {
+  .places {
+    width: 928px;
+    height: 3432px;
+  }
+}
