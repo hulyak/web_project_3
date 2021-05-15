@@ -6,8 +6,5 @@
   /* or 122% */
   color: #ffffff;
   max-width: 320px;
-  position: relative;
-  left: 35%;
-  top: 35%;
-  /* padding: 391px 43px 283px; */
+  margin: 0;
 }

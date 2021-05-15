@@ -7,17 +7,11 @@
   color: #fffdfd;
   max-width: 656px;
   text-decoration: none;
-  /* margin: 0 0 32px 0; */
-  position: relative;
-  left: 22%;
-  top: 35%;
-  /* padding: 283px 264px 0 264px; */
+  margin: 0 0 32px 0;
 }
 @media only screen and (max-width: 320px) {
   .cover__title {
     font-size: 32px;
     line-height: 35px;
-    left: 10%;
-    top: 20%;
   }
 }
