@@ -25,6 +25,7 @@
 @media only screen and (max-width: 768px) {
   .place__paragraph {
     margin: 0 24px 25px 28px;
+    /* width: 352px; */
   }
 
   .place__paragraph:last-child {
