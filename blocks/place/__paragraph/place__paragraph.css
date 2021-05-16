@@ -5,18 +5,16 @@
   line-height: 163%;
   /* or 29px */
   color: #ffffff;
-  margin: 0 0 25px 40px;
+  max-width: 484px;
+  margin: 0 0 25px;
 }
 
 .place__paragraph:last-child {
-  margin-bottom: 0;
   line-height: 26px;
+  margin: 0;
 }
 
 @media only screen and (max-width: 1024px) {
-  .place__paragraph {
-    margin: 0 32px 26px 48px;
-  }
   .place__paragraph:last-child {
     line-height: 30px;
   }
@@ -24,8 +22,7 @@
 
 @media only screen and (max-width: 768px) {
   .place__paragraph {
-    margin: 0 24px 25px 28px;
-    /* width: 352px; */
+    max-width: 352px;
   }
 
   .place__paragraph:last-child {
@@ -36,7 +33,6 @@
 @media only screen and (max-width: 320px) {
   .place__paragraph {
     font-size: 16px;
-    margin: 0 16px 25px 16px;
   }
   .place__paragraph:last-child {
     line-height: 163%;
