@@ -1,9 +1,7 @@
 .cover__background {
+  display: block;
   width: 100%;
   height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
   background: url("../../../images/cover-route-66.jpeg") center center no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
