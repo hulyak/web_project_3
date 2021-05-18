@@ -6,11 +6,14 @@
 @import url("./__url-heading/place__url-heading.css");
 
 .place {
-  list-style-type: none;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 40px;
-  margin-bottom: 80px;
+  margin: 0 0 80px;
+}
+
+.place:last-child {
+  margin-bottom: 0;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -22,7 +25,7 @@
 @media only screen and (max-width: 768px) {
   .place {
     gap: 28px;
-    margin-bottom: 72px;
+    margin-bottom: 73px;
   }
 }
 
@@ -30,5 +33,6 @@
   .place {
     grid-template-columns: 100%;
     margin-bottom: 48px;
+    gap: 30px;
   }
 }

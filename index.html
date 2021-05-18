@@ -18,17 +18,12 @@
       <a href="#"
         ><img src="images/logo.svg" alt="logo image" class="logo"
       /></a>
-      <nav>
-        <span
-          ><a
-            href="#"
-            lang="en"
-            class="header__lang-link header__lang-link_active"
-            >En</a
-          ></span
+      <div>
+        <a href="#" lang="en" class="header__lang-link_active header__lang-link"
+          >En</a
         >
-        <span><a href="#" lang="es" class="header__lang-link">Es</a></span>
-      </nav>
+        <a href="#" lang="es" class="header__lang-link">Es</a>
+      </div>
     </header>
 
     <main>
@@ -37,19 +32,23 @@
         <p class="lead__subtitle">
           An epic bicycle journey from Portland, ME. to Portland, OR
         </p>
-        <img
-          src="images/lead-mountains.jpeg"
-          alt="mountains"
-          class="lead__image"
-        />
-        <p class="lead__caption">Your journey starts here</p>
+        <figure class="lead__figure">
+          <img
+            src="images/lead-mountains.jpeg"
+            alt="mountains"
+            class="lead__image"
+          />
+          <figcaption class="lead__caption">
+            Your journey starts here
+          </figcaption>
+        </figure>
       </section>
 
       <section class="intro">
         <h2 class="intro__title">
           Know the country you live in a little better
         </h2>
-        <p class="intro__text">
+        <p class="intro__subtitle">
           That's exactly what we have arranged for you via this travel story
         </p>
         <p class="intro__text">
@@ -65,10 +64,16 @@
           your favorite book.
         </p>
         <ul class="intro__list">
-          <li>Distance (miles) 3,644</li>
-          <li>Travel time (days) 22</li>
-          <li>Highest point (feet) 9,613</li>
-          <li>Lowest point (feet) -3</li>
+          <li>
+            Distance (miles) <span class="intro__list_number">3,644</span>
+          </li>
+          <li>Travel time (days) <span class="intro__list_number">22</span></li>
+          <li>
+            Highest point (feet) <span class="intro__list_number">9,613</span>
+          </li>
+          <li>
+            Lowest point (feet) <span class="intro__list_number">-3</span>
+          </li>
         </ul>
       </section>
 
@@ -135,12 +140,12 @@
         />
       </section>
 
-      <section>
-        <ul class="places">
+      <section class="places">
+        <ul class="places__list">
           <li class="place">
-            <h3 class="place__title">Maine</h3>
+            <h2 class="place__title">Maine</h2>
             <div class="place__website">
-              <h4 class="place__url-heading">URL</h4>
+              <h3 class="place__url-heading">URL</h3>
               <a
                 href="https://global.llbean.com/shop/L.L.Bean-Continental-Rucksack/122952.html?bc=50-816&csp=f&feat=816-GN1"
                 class="place__link"
@@ -171,9 +176,9 @@
           </li>
 
           <li class="place">
-            <h3 class="place__title">New Hampshire</h3>
+            <h2 class="place__title">New Hampshire</h2>
             <div class="place__website">
-              <h4 class="place__url-heading">URL</h4>
+              <h3 class="place__url-heading">URL</h3>
               <a
                 href="https://www.timberland.com/timberlandpro.html"
                 class="place__link"
@@ -207,9 +212,9 @@
           </li>
 
           <li class="place">
-            <h3 class="place__title">New York</h3>
+            <h2 class="place__title">New York</h2>
             <div class="place__website">
-              <h4 class="place__url-heading">URL</h4>
+              <h3 class="place__url-heading">URL</h3>
               <a href=" https://www.ge.com/about-us" class="place__link"
                 >ge.com</a
               >
@@ -238,9 +243,9 @@
           </li>
 
           <li class="place">
-            <h3 class="place__title">Erie, PA</h3>
+            <h2 class="place__title">Erie, PA</h2>
             <div class="place__website">
-              <h4 class="place__url-heading">URL</h4>
+              <h3 class="place__url-heading">URL</h3>
               <a href=" https://www.fws.gov/refuge/erie" class="place__link"
                 >fms.gov</a
               >
@@ -275,9 +280,9 @@
             </div>
           </li>
           <li class="place">
-            <h3 class="place__title">Ohio</h3>
+            <h2 class="place__title">Ohio</h2>
             <div class="place__website">
-              <h4 class="place__url-heading">URL</h4>
+              <h3 class="place__url-heading">URL</h3>
               <a href="https://www.cedarpoint.com" class="place__link"
                 >cedarpoint.com</a
               >
@@ -312,7 +317,7 @@
           class="cover__link"
         >
           <div class="cover__background">
-            <h3 class="cover__title">Historic Route 66</h3>
+            <h2 class="cover__title">Historic Route 66</h2>
             <p class="cover__subtitle">
               The Main Street of America from Santa Monica, Cal. to Chicago,
               Ill.
@@ -321,21 +326,17 @@
           <div class="cover__overlay"></div>
         </a>
       </section>
-
-      <footer class="footer">
-        <nav>
-          <a href="https://yandex.com/maps" class="footer__link">
-            <span>Maps</span>
-          </a>
-          <a href="https://yandex.com/weather/moscow" class="footer__link">
-            <span>Weather</span>
-          </a>
-          <a href="#https://calendar.yandex.ru" class="footer__link">
-            <span>Calendar</span></a
-          >
-        </nav>
-        <span class="footer__copyright">© 2021 Hulya</span>
-      </footer>
     </main>
+
+    <footer class="footer">
+      <nav>
+        <a href="https://yandex.com/maps" class="footer__link"> Maps </a>
+        <a href="https://yandex.com/weather/moscow" class="footer__link">
+          Weather
+        </a>
+        <a href="#https://calendar.yandex.ru" class="footer__link"> Calendar</a>
+      </nav>
+      <span class="footer__copyright">© 2021 Hulya</span>
+    </footer>
   </body>
 </html>

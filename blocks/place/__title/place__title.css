@@ -5,7 +5,7 @@
   line-height: 76px;
   /* or 106% */
   color: #ffffff;
-  margin-bottom: 0 0 48px 0;
+  margin: 0 0 48px 0;
   max-width: 440px;
 }
 
@@ -20,7 +20,6 @@
   .place__title {
     font-size: 32px;
     line-height: 35px;
-    margin-bottom: 30px;
-    margin: 0 16px 30px;
+    margin: 0 16px;
   }
 }

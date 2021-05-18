@@ -16,7 +16,11 @@
 }
 
 .header__lang-link:hover {
-  opacity: 0.4;
+  opacity: 0.8;
+}
+
+.header__lang-link {
+  margin-right: 18px;
 }
 
 @media screen and (max-width: 320px) {

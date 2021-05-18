@@ -23,18 +23,19 @@
 @media only screen and (max-width: 768px) {
   .place__paragraph {
     max-width: 352px;
-  }
-
-  .place__paragraph:last-child {
     font-size: 16px;
   }
 }
 
 @media only screen and (max-width: 320px) {
   .place__paragraph {
+    max-width: 288px;
     font-size: 16px;
+    margin: 0 16px 25px;
   }
+
   .place__paragraph:last-child {
     line-height: 163%;
+    margin: 0 16px 0;
   }
 }
