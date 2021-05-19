@@ -4,9 +4,10 @@
   position: absolute;
   top: 0;
   left: 0;
-  background: rgba(42, 44, 47, 0.3);
+  opacity: 0.3;
+  background: #2a2c2f;
 }
 
 .cover__overlay:hover {
-  background: rgba(42, 44, 47, 0.8);
+  opacity: 0.8;
 }
