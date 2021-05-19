@@ -2,6 +2,7 @@
 @import url("./__text/intro__text.css");
 @import url("./__title/intro__title.css");
 @import url("./__subtitle/intro__subtitle.css");
+@import url("./__number/intro__number.css");
 
 .intro {
   max-width: 690px;
