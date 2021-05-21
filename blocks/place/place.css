@@ -7,7 +7,7 @@
 
 .place {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(460px, 1fr));
   gap: 40px;
   margin: 0 0 80px;
 }
@@ -19,12 +19,14 @@
 @media only screen and (max-width: 1024px) {
   .place {
     gap: 32px;
+    grid-template-columns: repeat(auto-fit, minmax(440px, 1fr));
   }
 }
 
 @media only screen and (max-width: 768px) {
   .place {
     gap: 28px;
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
     margin-bottom: 73px;
   }
 }
