@@ -2,21 +2,8 @@
   max-width: 100%;
 }
 
-@media screen and (max-width: 1024px) {
-  .place__image {
-    max-width: 440px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .place__image {
-    max-width: 340px;
-  }
-}
-
 @media only screen and (max-width: 320px) {
   .place__image {
-    max-width: 320px;
     margin: 0;
   }
 }
