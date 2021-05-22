@@ -4,9 +4,12 @@
   font-size: 18px;
   line-height: 22px;
   /* or 122% */
-  color: #fff;
+  color: #ffffff;
   max-width: 320px;
   margin: 0 auto;
+  text-align: center;
+  position: relative;
+  z-index: 2;
 }
 
 @media only screen and (max-width: 320px) {

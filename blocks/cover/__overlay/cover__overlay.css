@@ -6,10 +6,8 @@
   left: 0;
   opacity: 0.3;
   background: #2a2c2f;
-  margin: 0;
-  transition: opacity 0.3s;
 }
 
-.cover:hover .cover__overlay:hover {
+.cover__overlay:hover {
   opacity: 0.8;
 }
