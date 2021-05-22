@@ -5,11 +5,8 @@
   line-height: 76px;
   /* identical to box height, or 106% */
   color: #fffdfd;
-  max-width: 656px;
+  /* max-width: 656px; */
   margin: 0 0 32px 0;
-  text-align: center;
-  position: relative;
-  z-index: 2;
 }
 
 @media only screen and (max-width: 320px) {
