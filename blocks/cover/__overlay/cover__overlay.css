@@ -6,6 +6,7 @@
   left: 0;
   opacity: 0.3;
   background: #2a2c2f;
+  transition: opacity 0.2s;
 }
 
 .cover__overlay:hover {
