@@ -1,6 +1,6 @@
 # Project 3: From Portland to Portland
 
-This is a project about traveling across the US. It is a responsive website built from a [Figma design](https://www.figma.com/file/AtbNbstbxWPcMqvF061V0R/Sprint-3%3A-From-Portland-to-Portland-%7C-desktop-%2B-mobile?node-id=0%3A1). It corresponds to the breakpoints of 320px, 768px, 1024px and 1280px.
+This is a project about traveling across the US. It is a responsive website built from a [Figma design](https://www.figma.com/file/kjF8YJH5w81OnyVDnysW04/Sprint-3-From-Portland-to-Portland-desktop-mobile?node-id=2%3A182). It corresponds to the breakpoints of 320px, 768px, 1024px and 1280px.
 
 It's built with HTML and CSS.
 
